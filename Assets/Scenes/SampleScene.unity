@@ -209,6 +209,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Obstacle
       objectReference: {fileID: 0}
+    - target: {fileID: 4617493187573252069, guid: c067bf4653b52de468d026e0033f5bf6,
+        type: 3}
+      propertyPath: m_TagString
+      value: Friendly
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c067bf4653b52de468d026e0033f5bf6, type: 3}
 --- !u!1001 &1295810802
@@ -218,30 +223,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 314250056, guid: e4363cfb1e6a9844fbc1999aafd042b4, type: 3}
-      propertyPath: m_Constraints
-      value: 56
-      objectReference: {fileID: 0}
-    - target: {fileID: 314250056, guid: e4363cfb1e6a9844fbc1999aafd042b4, type: 3}
-      propertyPath: m_Drag
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 314250056, guid: e4363cfb1e6a9844fbc1999aafd042b4, type: 3}
-      propertyPath: m_AngularDrag
-      value: 0.05
-      objectReference: {fileID: 0}
-    - target: {fileID: 314250056, guid: e4363cfb1e6a9844fbc1999aafd042b4, type: 3}
-      propertyPath: m_Mass
-      value: 0.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 314250059, guid: e4363cfb1e6a9844fbc1999aafd042b4, type: 3}
-      propertyPath: m_PlayOnAwake
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 314250059, guid: e4363cfb1e6a9844fbc1999aafd042b4, type: 3}
-      propertyPath: m_Pitch
-      value: 0.5
-      objectReference: {fileID: 0}
     - target: {fileID: 4456387897307420526, guid: e4363cfb1e6a9844fbc1999aafd042b4,
         type: 3}
       propertyPath: m_LocalPosition.x
